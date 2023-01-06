@@ -1,0 +1,7 @@
+.character-cards-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60vw;
+    margin: 80px auto;
+}

@@ -1,0 +1,55 @@
+.full-char-info{
+    display: flex;
+    margin: 6px;    
+    padding: 6px;
+    background-color: var(--card-background);
+    border-radius: 6px;
+
+}
+
+.additional-char-info{    
+    position: relative;
+    padding: 0px 14px;
+    font-size: 1.4rem;    
+}
+
+.additional-char-info > ul{    
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+.additional-char-info > button{    
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 4px 14px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.additional-char-info li{    
+    font-size: 1.2rem;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.additional-char-info span{    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    
+}
+
+.character-card {
+    width: 220px;
+    background-color: var(--card-background);
+    border: 0;
+}
+
+.show-more{
+    margin-left: 85px;
+    background-color: var(--light-green);
+    color: var(--dark-green);
+    border: 0px;
+    transition: transform 200ms, color 200ms;    
+}

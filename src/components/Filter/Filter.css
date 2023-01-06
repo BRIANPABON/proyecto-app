@@ -1,0 +1,12 @@
+.filter-switch > label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.filter-switch{
+    padding: 8px 20px 8px 60px;
+    margin: 5px;
+    background-color: var(--dark-green);    
+    color: var(--light-green);    
+    border-radius: 12px;
+    font-size: 1rem;
+}

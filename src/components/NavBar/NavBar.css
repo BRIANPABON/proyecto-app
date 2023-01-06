@@ -1,0 +1,32 @@
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    background-color: var(--dark-green);
+    color: var(--light-green);
+    z-index: 1;  
+}
+
+.navbar-title{
+    margin-left: 30px;
+    font-size: 1.4rem;
+}
+
+.navbar-title > a{
+    text-decoration: none;
+    color: var(--light-green);
+}
+
+.navbar-buttons{
+    margin-right: 30px;
+}
+
+.navbar-buttons button {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    background-color: var(--light-green);
+    color: var(--dark-green); 
+}
